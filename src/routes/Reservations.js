@@ -1,11 +1,14 @@
 import React from 'react';
-import Header from '../components/Header';
+import HeaderElement from '../components/HeaderElement';
+import Footer from '../components/Footer';
+import ReservationsPage from '../components/ReservationsPage';
 
 const Reservations = () => {
   return (
     <div>
-      <Header />
-      <h1 style={{textAlign: "center", paddingTop: "15%"}}>Reservations</h1>
+      <HeaderElement />
+      <ReservationsPage />
+      <Footer />
     </div>
   )
 }
